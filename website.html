@@ -1,26 +1,29 @@
 <style>
 .textg {
-margin-left: 560px;
-font-size: 30px;
-cursor: default;
-    }
-.link{
-    background-color: rgb(141, 213, 216);
-    margin-left: 610px;
-    margin-top: 100px;
-    height: 64px;
-    width: 180px;
-    border-radius: 5px;
-    font-size: 25px;
-    text-decoration: none;
-    ;
-    
+  margin-left: 560px;
+  font-size: 30px;
+  cursor: default;
 }
-
+.link{
+  background-color: rgb(141, 213, 216);
+  margin-left: 610px;
+  margin-top: 100px;
+  height: 80px;
+  width: 180px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block; /* needed for link to size properly */
+  text-align: center;    /* center text inside */
+  line-height: 64px;     /* vertically center text */
+  color: black;
+}
 </style>
+
 <p class="textg">
-    Get free money for free
+  Get free money for free
 </p>
-<button class="link">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Link to free money</a>
-</button>
+
+<a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+  Link to free money
+</a>
